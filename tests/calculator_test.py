@@ -31,7 +31,5 @@ class CalculatorTest(TestCase):
         self.assertEqual('Выражение должно содержать два целых числа и один знак', e.exception.args[0])
 
 
-
-
 if __name__ == '__main__':
     main()
